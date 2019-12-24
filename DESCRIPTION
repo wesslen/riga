@@ -1,0 +1,28 @@
+Package: riga
+Title: Data labeling tool
+Version: 0.0.0.9000
+Authors@R: person('Ryan', 'Wesslen', email = 'rwesslen@gmail.com', role = c('cre', 'aut'))
+Description: A shiny app for data labeling.
+License: CCBY-4.0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    golem,
+    devtools,
+    fortunes,
+    shinydashboard,
+    processx,
+    htmltools,
+    dplyr,
+    magrittr,
+    shinysense,
+    glmnet,
+    text2vec,
+    pkgload
+RoxygenNote: 7.0.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
